@@ -110,6 +110,14 @@ class CardCompany {
     ),
   );
 
+  static CardCompany trek = CardCompany(
+    Image.asset(
+      'images/logo.png',
+      height: 35,
+      package: 'credit_card_slider',
+    ),
+  );
+
   final Widget widget;
 
   const CardCompany(this.widget);

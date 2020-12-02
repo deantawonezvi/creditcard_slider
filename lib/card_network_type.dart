@@ -8,6 +8,13 @@ class CardNetworkType {
       package: 'credit_card_slider',
     ),
   );
+  static CardNetworkType trek = CardNetworkType(
+    Image.asset(
+      'images/logo.png',
+      height: 35,
+      package: 'credit_card_slider',
+    ),
+  );
 
   static CardNetworkType mastercard = CardNetworkType(
     Image.asset(
